@@ -19,7 +19,8 @@ compileSdkVersion 33
 
 Configuración adicional para la app de iOS:
 Asegúrate de agregar el siguiente código en el archivo Info.plist de la app:
-<key>LSApplicationQueriesSchemes</key>
+
+	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>sms</string>
 		<string>tel</string>
