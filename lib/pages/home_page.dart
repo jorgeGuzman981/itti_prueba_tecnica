@@ -49,7 +49,10 @@ class HomePage extends StatelessWidget {
                   child: const Icon(
                 Icons.arrow_downward,
                 color: AppColors.primaryColor,
-              ))
+              )),
+              SizedBox(
+                height: 10.h,
+              )
             ],
           ),
         ));
